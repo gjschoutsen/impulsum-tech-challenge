@@ -11,15 +11,14 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-      <Box
-      bg='background-dark' 
-      h='100vh'
-      fontFamily='Roboto'
-      >
-        <Flex id='flex'
-        w='80vw'
-        direction='column' 
-         
+    <Box
+    bg='background-dark' 
+    h='100vh'
+    fontFamily='Roboto'
+    >
+    <Flex id='flex'
+          align='center'
+          direction='column'          
         >
           <NavBar />
           <Header />
