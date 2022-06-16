@@ -23,7 +23,7 @@ export default function NavBar() {
           mr='spacer-4'
           src={ComposerLogo}></Image>
           <Text 
-          variant='text-header-L'
+            variant='text-header-L'
             color='text-light'
           >
             Composer

@@ -3,17 +3,17 @@ import { Box, Flex } from '@cmpsr/components'
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import SectionOne from './components/SectionOne';
-import SectionTwo from './components/SectionTwo';
 import RequestDemo from './components/RequestDemo';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SectionTwo from './components/SectionTwo';
 
 function App() {
   
   return (
     <Box
     bg='background-dark' 
-    h='100vh'
+    h='100%vh'
     fontFamily='Roboto'
     >
     <Flex id='flex'
@@ -23,8 +23,7 @@ function App() {
           <NavBar />
           <Header />
           <SectionOne/>
-          <SectionTwo />
-          <SectionTwo />
+          <SectionTwo/>
           <RequestDemo />
           <Contact />
           <Footer />
