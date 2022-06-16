@@ -1,0 +1,43 @@
+.header-box {
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-box {
+    width: 1228px;
+    height: 168px;
+
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    /* or 117% */
+
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #ffffff;
+}
+
+.subtext-box {
+    width: 1228px;
+    height: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+
+    color: #888888;
+}

@@ -1,3 +1,32 @@
-.Box {
+.box {
     padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo-box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.brand-name {
+width: 146px;
+height: 33px;
+
+font-family: 'Roboto', sans-serif;;
+font-weight: 100px;
+font-size: 28px;
+line-height: 33px;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.button {
+    border-radius: 99px;
 }

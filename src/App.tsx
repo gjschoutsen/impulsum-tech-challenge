@@ -14,7 +14,7 @@ function App() {
   
   return (
     <>
-      <Container maxW="1440px" >
+      <Container maxW="1440px" centerContent>
         <NavBar />
         <Header />
         <SectionOne />
