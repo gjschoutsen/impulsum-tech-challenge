@@ -1,27 +1,35 @@
 import React from 'react'
-import '../css/NavBar.css'
-// import { Button } from '@cmpsr/components';
-import {Box, Button} from '@chakra-ui/react'
+import { Box, Button, Flex, Image, Text } from '@cmpsr/components'
 import ComposerLogo from '../images/ComposerLogo.svg'
 
 export default function NavBar() {
   return (
-    <>
-     <Box className='box' w='100%' h='124px' >
-      <div className='logo-box'>
-      <img src={ComposerLogo} alt="Composer Logo" />
-      <h1 className='brand-name'>Composer</h1>
-      </div>
-      <div>
-        <Button 
-          roundedRight='99' 
-          roundedLeft='99' 
-          colorScheme="blue"
-          >Request your free demo
-        </Button>
-      </div>
-     </Box>
     
-    </>
+    <Box id='navbar'
+      maxH='124px'
+      >
+      <Flex 
+        alignItems='center'
+      >
+        <Flex
+          alignItems='center'
+        >
+          <Image src={ComposerLogo}></Image>
+          <Text 
+            color='accent-default'
+          >
+            Composer
+          </Text>
+        </Flex>
+        <Button 
+          variant='primary'
+          size='m'
+          borderRadius='99'
+        >
+          Request your free demo
+        </Button>
+      </Flex>
+    </Box>
+  
   )
 }
