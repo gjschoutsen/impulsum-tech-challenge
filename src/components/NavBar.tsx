@@ -6,23 +6,26 @@ export default function NavBar() {
   return (
     
     <Box
-      w='170%'
+      w='100%'
       h='124px'
-      padding='32px 106px'
+      padding={['20px 10px','32px 106px']}
       >
       <Flex 
         alignItems='center'
-        justify='space-around'
+        justify={['space-around','space-between']}
   
       >
         <Flex
+          h='60px'
+          w='60px'
           alignItems='center'
           
         >
-          <Image 
+          <Image
           mr='spacer-4'
           src={ComposerLogo}></Image>
           <Text 
+            display={['none', 'block']}
             variant='text-header-L'
             color='text-light'
           >

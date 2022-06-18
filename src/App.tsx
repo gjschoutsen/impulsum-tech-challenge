@@ -14,6 +14,7 @@ function App() {
     <Box
     bg='background-dark' 
     h='100%vh'
+    w='100%vw'
     fontFamily='Roboto'
     >
     <Flex id='flex'

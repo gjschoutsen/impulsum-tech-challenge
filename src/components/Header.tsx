@@ -6,7 +6,7 @@ export default function Header() {
     <Box
       w='80%'
       h='620px'
-      padding='132px 106px'
+      padding={['0','132px 106px']}
     >
       <Flex
         direction='column'
