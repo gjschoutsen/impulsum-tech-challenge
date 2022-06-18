@@ -7,22 +7,26 @@ export default function SectionOne() {
 
   return (
     <Box
-      w='80%'
+      w= "80%"
       h='1524px'
       padding='112px 106px 192px'
     >
-      <Flex>
+      <Flex 
+        
+      >
         <Image 
           w='604'
           h='544'
           src={Business}
         ></Image>
-        <Flex id='1'
-          direction={["column"]}
+        <Flex 
+          align='center'
+          // direction={["column"]}
         >
         <Box
+          w='500px'
         >
-          <Flex id='2'
+          <Flex 
             direction='column'
             alignItems='flex-start'
           >  
@@ -43,8 +47,11 @@ export default function SectionOne() {
         </Flex>
       
       <Flex>
-        <Flex>
+        <Flex
+           align='center'
+        >
         <Box
+          w='500px'
         >
           <Flex
             direction='column'

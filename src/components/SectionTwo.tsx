@@ -36,6 +36,7 @@ export default function SectionTwo() {
         <Flex
             w='80%'
             gap='30px'
+            justify='center'
         >
             <Box
              w='540px'

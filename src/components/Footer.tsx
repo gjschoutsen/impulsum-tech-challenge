@@ -13,6 +13,7 @@ export default function Footer() {
         alignItems='center'
       >
       <Flex
+        gap='4px'
       >  
       <Text
         variant='text-body-meta-regular'

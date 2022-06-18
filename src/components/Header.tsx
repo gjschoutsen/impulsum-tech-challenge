@@ -4,7 +4,7 @@ import { Box, Text, Flex, Button, IconArrowRight } from '@cmpsr/components';
 export default function Header() {
   return (
     <Box
-      w='100%'
+      w='80%'
       h='620px'
       padding='132px 106px'
     >
@@ -23,7 +23,7 @@ export default function Header() {
             with the smartest web builder
         </Text>
         <Text
-     
+          w='80%'
           variant='text-body-display-S'
           fontFamily='Inter'
           align='center'
@@ -31,7 +31,6 @@ export default function Header() {
         >
             Introducing Composer - the most advanced web and landing page builder for non-programmers
             that helps you to speed up your digital production processes
-            Request your free demo
         </Text>
         <Button 
           size='l'
