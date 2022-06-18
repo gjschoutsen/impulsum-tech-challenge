@@ -13,32 +13,32 @@ export default function SectionTwo() {
         <Flex
             direction='column'
             align='center'
-            gap='88px'
+            gap={['10px', '88px']}
         >
             <Flex
             direction='column'
             padding={['50px', '0']}
             gap='10px'
             >
-            <Text
-                variant='text-header-2XL'
-                color='text-light'
-                align='center'
-            >
-                We have got what you need
-            </Text>
-            <Text
-                variant='text-body-display-S'
-                fontFamily='Inter'
-                align='center'
-                color='text-secondary'
-            >
-            Learn more about the amazing features our team is developing.
-            </Text>
+                <Text
+                    variant='text-header-2XL'
+                    color='text-light'
+                    align='center'
+                >
+                    We have got what you need
+                </Text>
+                <Text
+                    variant='text-body-display-S'
+                    fontFamily='Inter'
+                    align='center'
+                    color='text-secondary'
+                >
+                Learn more about the amazing features our team is developing.
+                </Text>
             </Flex>
 
             <Flex
-                gap='30px'
+                gap='10px'
                 justify='center'
                 direction={['column', 'row']}
                 padding={['10px', '0']}

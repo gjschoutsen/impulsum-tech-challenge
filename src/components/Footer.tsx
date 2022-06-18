@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <Box
     w={['100%','80%']}
-    padding={['40px 0px', '0']}
+    padding={['40px 0px', '0 0 40px 0']}
     >
       <Flex id='10000'
         direction={['column', 'row']}
@@ -18,33 +18,33 @@ export default function Footer() {
           direction={['column', 'row']}
           align={['center', 'left']}
         >  
-        <Text
-          as='span'
-          variant='text-body-meta-regular'
-          color='text-secondary'
-          >© 2022 Composer. Proudly powered by   
-        </Text>
-        <Text
-          as='span'
-          variant='text-body-meta-regular'
-          color='primary-default'
-          >
-          Impulsum Venture Colab. 
-        </Text>
-        <Text
-            as='span'
-            variant='text-body-meta-regular'
-            color='text-secondary'
-            >
-          All Rights Reserved. 
-          </Text>
-          <Text
-            as='span'
-            variant='text-body-meta-regular'
-            color='primary-default'
-            > 
-            Privacy Policy
-          </Text>
+            <Text
+              as='span'
+              variant='text-body-meta-regular'
+              color='text-secondary'
+              >© 2022 Composer. Proudly powered by   
+            </Text>
+            <Text
+              as='span'
+              variant='text-body-meta-regular'
+              color='primary-default'
+              >
+              Impulsum Venture Colab. 
+            </Text>
+            <Text
+              as='span'
+              variant='text-body-meta-regular'
+              color='text-secondary'
+              >
+              All Rights Reserved. 
+            </Text>
+            <Text
+              as='span'
+              variant='text-body-meta-regular'
+              color='primary-default'
+              > 
+              Privacy Policy
+            </Text>
           </Flex>
           <Image
             src={ComposerLogo}

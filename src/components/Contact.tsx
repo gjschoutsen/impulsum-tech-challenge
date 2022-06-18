@@ -10,8 +10,8 @@ export default function Contact() {
       >
         <Flex
           direction={['column', 'row']}
-          justify='space-around'
           gap={['40px','200px']}
+          
         >
       {/* -------GITHUB--------- */}
           <Box
@@ -101,12 +101,10 @@ export default function Contact() {
                   fontFamily='Inter'
                   variant='text-link-body-small'
                   color='text-light'
-                >Meet the crew on Instagram</Text>
-                
+                >Meet the crew on Instagram</Text>                
             </Flex>    
           </Box>
         </Flex>
-
       </Grid>
   )
 }
