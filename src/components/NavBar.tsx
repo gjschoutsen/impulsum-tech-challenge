@@ -28,6 +28,7 @@ export default function NavBar() {
             display={['none', 'block']}
             variant='text-header-L'
             color='text-light'
+            letterSpacing='0.02em'
           >
             Composer
           </Text>
