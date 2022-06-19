@@ -3,11 +3,12 @@ import {Flex, Image, Box, Text} from '@cmpsr/components'
 
 interface Props {
   business: any,
-  flexDir: string,
+  flexDir: any,
   title: string,
   subTitle: string,
   paragraph: string,
 }
+
 
 
 export const FeaturedItemsOne: React.FC<Props> = ({
@@ -15,24 +16,22 @@ export const FeaturedItemsOne: React.FC<Props> = ({
   flexDir,
   title,
   subTitle,
-  paragraph
-
+  paragraph  
 }) => {
+
   return (
     
     <Flex 
-    direction={['column', 'row']}
+    direction={['column', flexDir]}
   >
       <Image 
         w='604'
-        // h='544'
         src={business}
       ></Image>
       <Flex 
         align='center'
       >
         <Box
-          // w='500px'
           padding={['20px','0']}
           paddingTop={['100px','0']}
           >

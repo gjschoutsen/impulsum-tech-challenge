@@ -33,10 +33,9 @@ export default function SectionTwo() {
                     align='center'
                     color='text-secondary'
                 >
-                Learn more about the amazing features our team is developing.
+                    Learn more about the amazing features our team is developing.
                 </Text>
             </Flex>
-
             <Flex
                 gap='10px'
                 justify='center'

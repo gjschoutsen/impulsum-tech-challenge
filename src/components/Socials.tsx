@@ -11,7 +11,6 @@ export const Socials: React.FC<Props> = ({
     logo,
     text,
     btnText
-
 }) => {
   return (
     <Box

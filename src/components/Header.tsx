@@ -37,13 +37,10 @@ export default function Header() {
           variant='primary'
           borderRadius='99'
         >
-          Request your free demo
-          {<IconArrowRight/>} 
-        </Button>
-        
+            Request your free demo
+            {<IconArrowRight/>} 
+        </Button>        
       </Flex>
-
     </Box>
-
   )
 }

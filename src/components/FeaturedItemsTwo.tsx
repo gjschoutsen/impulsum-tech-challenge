@@ -32,17 +32,16 @@ export const FeaturedItemsTwo: React.FC<Props> = ({
                     as='span'
                     color='text-light'
                     variant='text-header-XL'
-                >{title}</Text> 
-                    
-                    <Text
-                        as='span'
-                        color='primary-default'
-                        variant='text-header-XL'
-                    >{titleBlue}</Text>
-                    <Text
-                        fontFamily='Inter'
-                        color='text-secondary'
-                    >{paragraph}</Text>
+                >{title}</Text>                 
+                <Text
+                    as='span'
+                    color='primary-default'
+                    variant='text-header-XL'
+                >{titleBlue}</Text>
+                <Text
+                    fontFamily='Inter'
+                    color='text-secondary'
+                >{paragraph}</Text>
             </Box>
         </Flex>
   )

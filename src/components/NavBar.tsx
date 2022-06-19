@@ -13,13 +13,11 @@ export default function NavBar() {
       <Flex 
         alignItems='center'
         justify={['space-around','space-between']}
-  
       >
         <Flex
           h='60px'
           w='60px'
-          alignItems='center'
-          
+          alignItems='center'          
         >
           <Image
           mr='spacer-4'
@@ -38,8 +36,8 @@ export default function NavBar() {
           variant='primary'
           borderRadius='99'
         >
-          Request your free demo
-          {<IconArrowRight/>} 
+            Request your free demo
+            {<IconArrowRight/>} 
         </Button>
       </Flex>
     </Box>
