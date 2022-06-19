@@ -25,7 +25,7 @@ export default function SectionOne() {
       title={'For Marketing Experts'}
       subTitle={'Get better conversion rates'}
       paragraph={"We help you create high-converting landing pages, engaging popups, integrated SEO, and social media integrations to reach a wider audience and optimize conversion rates using precise and customized A/B testing, and analytical insights."}
-      />      
+      />` `      
     </Box>
   )
 }

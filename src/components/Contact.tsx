@@ -11,7 +11,7 @@ export default function Contact() {
       >
         <Flex
           direction={['column', 'row']}
-          gap={['40px','200px']}
+          gap={['40px','150px']}
 
         >
         <Socials 

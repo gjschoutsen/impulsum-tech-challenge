@@ -9,8 +9,6 @@ interface Props {
   paragraph: string,
 }
 
-
-
 export const FeaturedItemsOne: React.FC<Props> = ({
   business,
   flexDir,
