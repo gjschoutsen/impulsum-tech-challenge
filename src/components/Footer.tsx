@@ -8,7 +8,7 @@ export default function Footer() {
     w={['100%','80%']}
     padding={['40px 0px', '0 0 40px 0']}
     >
-      <Flex id='10000'
+      <Flex
         direction={['column', 'row']}
         justify='space-between'
         alignItems='center'
@@ -19,27 +19,23 @@ export default function Footer() {
           align={['center', 'left']}
         >  
             <Text
-              as='span'
               variant='text-body-meta-regular'
               color='text-secondary'
-              >© 2022 Composer. Proudly powered by   
+              >© 2022 Composer. Proudly powered by&nbsp;   
             </Text>
             <Text
-              as='span'
               variant='text-body-meta-regular'
               color='primary-default'
               >
-              Impulsum Venture Colab. 
+              Impulsum Venture Colab.&nbsp;
             </Text>
             <Text
-              as='span'
               variant='text-body-meta-regular'
               color='text-secondary'
               >
-              All Rights Reserved. 
+              All Rights Reserved.&nbsp;  
             </Text>
             <Text
-              as='span'
               variant='text-body-meta-regular'
               color='primary-default'
               > 
