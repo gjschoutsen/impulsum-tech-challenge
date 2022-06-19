@@ -4,7 +4,7 @@ import { Box, Text, Flex, Button, IconArrowRight } from '@cmpsr/components';
 export default function Header() {
   return (
     <Box
-      w='80%'
+      w='90%'
       h='620px'
       padding={['0','132px 106px']}
     >
