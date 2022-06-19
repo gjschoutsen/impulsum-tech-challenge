@@ -32,7 +32,7 @@ export const Socials: React.FC<Props> = ({
         >
           {text}</Text>
         <Button 
-        maxW='80%'
+        maxW='70%'
         size='m'
         variant='primary'
         borderRadius='99'
