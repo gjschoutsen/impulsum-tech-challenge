@@ -1,7 +1,8 @@
 import React from 'react'
-import { Box, Button, Flex, Image, Text, IconArrowRight, Grid } from '@cmpsr/components'
+import { Box, Flex, Text, Grid } from '@cmpsr/components'
 import Github from "../images/Github.svg"
 import Figma from "../images/Figma.svg"
+import { Socials } from './Socials'
 
 export default function Contact() {
   return (
@@ -11,67 +12,20 @@ export default function Contact() {
         <Flex
           direction={['column', 'row']}
           gap={['40px','200px']}
-          
+
         >
-      {/* -------GITHUB--------- */}
-          <Box
-          w='90%'
-          h='100%'       
-          >
-            <Flex
-              direction='column'
-              gap='20px'
-            >
-              <Image
-                w='32px'
-                src={Github}
-              ></Image>
-              <Text
-                padding='10px'
-                variant='text-header-M'
-                color='text-light'
-              >
-                Composer is open-sourced on GitHub. You're welcome to contribute!</Text>
-              <Button 
-              maxW='80%'
-              size='m'
-              variant='primary'
-              borderRadius='99'
-            >
-              Contribute on GitHub
-              {<IconArrowRight/>} 
-            </Button>
-            </Flex>
-          </Box>
-      {/* -------FIGMA--------- */}
-          <Box
-          w='90%'
-          h='100%' 
-          >
-            <Flex
-              direction='column'
-              gap='20px'
-            >
-              <Image
-                w='32px'
-                src={Figma}
-              ></Image>
-              <Text
-                variant='text-header-M'
-                color='text-light'
-              >
-                Composer is part of the Figma community. Visit us with the handle @impulsum</Text>
-              <Button 
-                maxW='80%'
-                size='m'
-                variant='primary'
-                borderRadius='99'
-              >
-                Contribute on Figma
-                {<IconArrowRight/>} 
-              </Button>
-            </Flex>
-          </Box>
+        <Socials 
+          logo={Github}
+          text={"Composer is open-sourced on GitHub. You're welcome to contribute!"}
+          btnText={'Contribute on GitHub'}
+        />
+         
+        <Socials 
+            logo={Figma}
+            text={"Composer is part of the Figma community. Visit us with the handle @impulsum"}
+            btnText={'Contribute on Figma'}
+          />
+          
         {/* -------LINKS-------- */}
           <Box
           w='90%'
