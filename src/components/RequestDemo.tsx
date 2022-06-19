@@ -12,7 +12,7 @@ export default function RequestDemo() {
     alignItems='Center'
     >
       <Box
-      w={['90%','80%']}
+      w={['90%','100%']}
       bg='primary-default'
       padding= {['30px','64px 80px 72px']}
       >
