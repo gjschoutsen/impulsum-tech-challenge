@@ -1,13 +1,13 @@
 import React from 'react'
-import { Box, Text, Flex, Image } from '@cmpsr/components'
+import { Box, Text, Flex} from '@cmpsr/components'
 import DesignSystemTool from '../images/DesignSystemTool.svg';
 import ComponentCatalog from '../images/ComponentCatalog.svg';
+import { FeaturedItemsTwo } from './FeaturedItemsTwo';
 
 export default function SectionTwo() {
   return (
     <Box
      w='100%'
-     padding= {['0px','50px 106px']}
      bg='background-page'
     >
         <Flex
@@ -43,71 +43,18 @@ export default function SectionTwo() {
                 direction={['column', 'row']}
                 padding={['10px', '0']}
             >
-                {/* ------COMPONENT 1-------- */}
-                <Flex
-                direction='column'
-                alignItems='center'          
-                >
-                    <Image
-                        
-                        src={DesignSystemTool}
-                    ></Image>
-                    <Box
-                        // padding='40px'
-                        padding={['40px', '40px 150px']}
-                    >
-                        <Text
-                            as='span'
-                            color='text-light'
-                            variant='text-header-XL'
-                        >
-                            Apply your Brand Identity into our </Text> 
-                            
-                            <Text
-                                as='span'
-                                color='primary-default'
-                                variant='text-header-XL'
-                            >Design System Tool</Text>
-                            <Text
-                                fontFamily='Inter'
-                                color='text-secondary'
-                            >
-                                We have created the most flexible Design System tool to enable you to easily deploy your brand color scheme, fonts, images, and style into it to create your personalized Theme, or if you need it multi-brand themes!
-                            </Text>
-                    </Box>
-                </Flex>
-
-                {/* ------COMPONENT 2-------- */}
-                <Flex
-                direction='column'
-                alignItems='center'          
-                >
-                    <Image
-                        src={ComponentCatalog}
-                    ></Image>
-                <Box
-                    padding={['40px', '40px 80px']}
-                >
-                    <Text
-                        as='span'
-                        color='text-light'
-                        variant='text-header-XL'
-                    >
-                        Get your perfect branded and coded </Text> 
-                        
-                        <Text
-                            as='span'
-                            color='primary-default'
-                            variant='text-header-XL'
-                        >Component Catalog</Text>
-                        <Text
-                            fontFamily='Inter'
-                            color='text-secondary'
-                        >
-                            Once your brand theming is applied you can rapidly launch modern experiences with a space grade React component catalog based on the ubiquitous open-source Chakra UI library.
-                        </Text>
-                        </Box>
-                    </Flex>
+                <FeaturedItemsTwo 
+                componentCatalog={ComponentCatalog}
+                title={'Apply your Brand Identity into our'}
+                titleBlue={'Design System Tool'}
+                paragraph={'We have created the most flexible Design System tool to enable you to easily deploy your brand color scheme, fonts, images, and style into it to create your personalized Theme, or if you need it multi-brand themes!'}
+                />
+                    <FeaturedItemsTwo 
+                componentCatalog={DesignSystemTool}
+                title={'Get your perfect branded and coded'}
+                titleBlue={'Component Catalog'}
+                paragraph={'Once your brand theming is applied you can rapidly launch modern experiences with a space grade React component catalog based on the ubiquitous open-source Chakra UI library.'}
+                />
             </Flex>
         </Flex>
     </Box>
