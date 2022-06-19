@@ -25,8 +25,8 @@ export const FeaturedItemsTwo: React.FC<Props> = ({
                 src={componentCatalog}
             ></Image>
             <Box
-                padding={['40px', '0px 0px']}                        
-                w={['100%', '550px']}
+                padding={['40px', '0px']}                        
+                w={['100%', '450px']}
             >
                 <Text
                     as='span'
