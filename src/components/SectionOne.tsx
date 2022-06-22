@@ -13,14 +13,14 @@ export default function SectionOne() {
       padding={['0','112px 20px 112px']}
     >
       <FeaturedItemsOne 
-      business={Business}
+      img={Business}
       flexDir={'row'}
       title={'For Startups & Business Owners'}
       subTitle={'We support the way you run your Business'}
       paragraph={"With our drag-and-drop web editor and customizable professional templates that fit your brand, you'll be online in no time."}
       />
       <FeaturedItemsOne 
-      business={Marketing}
+      img={Marketing}
       flexDir={"row-reverse"}
       title={'For Marketing Experts'}
       subTitle={'Get better conversion rates'}

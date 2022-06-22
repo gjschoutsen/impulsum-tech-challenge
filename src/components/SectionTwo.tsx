@@ -43,13 +43,13 @@ export default function SectionTwo() {
                 padding={['10px', '0']}
             >
                 <FeaturedItemsTwo 
-                componentCatalog={ComponentCatalog}
+                img={ComponentCatalog}
                 title={'Apply your Brand Identity into our '}
                 titleBlue={'Design System Tool'}
                 paragraph={'We have created the most flexible Design System tool to enable you to easily deploy your brand color scheme, fonts, images, and style into it to create your personalized Theme, or if you need it multi-brand themes!'}
                 />
                     <FeaturedItemsTwo 
-                componentCatalog={DesignSystemTool}
+                img={DesignSystemTool}
                 title={'Get your perfect branded and coded '}
                 titleBlue={'Component Catalog'}
                 paragraph={'Once your brand theming is applied you can rapidly launch modern experiences with a space grade React component catalog based on the ubiquitous open-source Chakra UI library.'}

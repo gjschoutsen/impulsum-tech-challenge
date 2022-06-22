@@ -2,7 +2,7 @@ import React from 'react'
 import {Flex, Image, Box, Text} from '@cmpsr/components'
 
 interface Props {
-  business: any,
+  img: any,
   flexDir: any,
   title: string,
   subTitle: string,
@@ -10,7 +10,7 @@ interface Props {
 }
 
 export const FeaturedItemsOne: React.FC<Props> = ({
-  business,
+  img,
   flexDir,
   title,
   subTitle,
@@ -24,7 +24,7 @@ export const FeaturedItemsOne: React.FC<Props> = ({
   >
       <Image 
         w='604'
-        src={business}
+        src={img}
       ></Image>
       <Flex 
         align='center'

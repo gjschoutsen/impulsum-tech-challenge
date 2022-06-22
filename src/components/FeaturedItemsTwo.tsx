@@ -1,14 +1,14 @@
 import React from 'react'
 import { Box, Text, Flex, Image } from '@cmpsr/components'
 interface Props {
-    componentCatalog: any,
+    img: any,
     title: string,
     titleBlue: string,
     paragraph: string
 }
 
 export const FeaturedItemsTwo: React.FC<Props> = ({
-    componentCatalog,
+    img,
     title,
     titleBlue,
     paragraph
@@ -22,7 +22,7 @@ export const FeaturedItemsTwo: React.FC<Props> = ({
         gap='20px'          
         >
             <Image
-                src={componentCatalog}
+                src={img}
             ></Image>
             <Box
                 padding={['40px', '0px']}                        
